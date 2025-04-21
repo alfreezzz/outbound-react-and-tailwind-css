@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin 'tailwind-scrollbar';
+
+@theme {
+  --color-primary: #a66e38;
+  --color-secondary: #ffad60;
+  --color-tertiary: #ffeead;
+  --color-fourth: #96ceb4;
+  --breakpoint-mobile-m: 375px;
+  --breakpoint-mobile-l: 425px;
+}
