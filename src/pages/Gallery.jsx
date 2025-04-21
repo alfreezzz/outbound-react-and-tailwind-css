@@ -167,7 +167,9 @@ export default function Gallery() {
               }}
             >
               <img
-                src={`/${item.title}.${item.extension}`}
+                src={`${import.meta.env.BASE_URL}${item.title}.${
+                  item.extension
+                }`}
                 alt={item.title}
                 className='w-full h-full object-cover transition-transform duration-700 hover:scale-110'
               />

@@ -11,17 +11,19 @@ export default function App() {
   document.documentElement.classList.add('scroll-smooth')
 
   return (
-    <>
+    <div className='scrollbar scrollbar-thumb-primary scroll-smooth scrollbar-track-fourth h-screen overflow-y-scroll'>
       <Nav />
       <WAFloatingButton />
       <Home />
-      <div className='mt-24 mb-16 max-xl:px-4 container mx-auto space-y-16'>
-        <About />
-        <Package />
-        <Gallery />
-        <Contact />
+      <div className='bg-tertiary pt-24 pb-20 -mb-4'>
+        <div className='max-xl:px-4 container mx-auto space-y-16'>
+          <About />
+          <Package />
+          <Gallery />
+          <Contact />
+        </div>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }

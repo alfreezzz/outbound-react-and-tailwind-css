@@ -69,7 +69,11 @@ export default function About() {
           variants={itemVariants}
         >
           <div className='flex items-center mb-6'>
-            <img src='./icon.png' alt='icon' className='w-12 h-12 mr-3' />
+            <img
+              src={`${import.meta.env.BASE_URL}icon.png`}
+              alt='icon'
+              className='w-12 h-12 mr-3'
+            />
             <p className='lg:text-xl text-lg'>
               <span className='italic font-medium'>Wanna</span> Outbound
             </p>
@@ -87,7 +91,7 @@ export default function About() {
       </motion.div>
       <motion.div className='md:p-8 p-4 w-full' variants={itemVariants}>
         <motion.img
-          src='../../public/1.png'
+          src={`${import.meta.env.BASE_URL}1.png`}
           alt='Outbound'
           className='rounded-xl rounded-tr-none justify-end border-b-4 border-r-4 border-primary h-full object-cover object-bottom-right'
           whileInView={{

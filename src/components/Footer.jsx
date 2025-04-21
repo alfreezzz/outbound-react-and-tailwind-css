@@ -3,7 +3,11 @@ export default function Footer() {
     <footer className='bg-primary text-white px-6 py-4 rounded-t-2xl'>
       <div className='container mx-auto grid md:grid-cols-3 gap-12 py-4'>
         <div>
-          <img src='../public/icon.png' alt='icon' className='w-32 h-32' />
+          <img
+            src={`${import.meta.env.BASE_URL}icon.png`}
+            alt='icon'
+            className='w-32 h-32'
+          />
         </div>
         <div>
           <h2 className='text-3xl font-bold mb-4'>Sosial Media</h2>

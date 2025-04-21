@@ -18,7 +18,7 @@ export default function Home() {
       <div className='absolute inset-0 w-full h-full z-[-1]'>
         <div className='relative w-full h-full'>
           <img
-            src='/bg.jpg'
+            src={`${import.meta.env.BASE_URL}bg.jpg`}
             className={`w-full h-full object-cover object-center transition-transform duration-1000 ${
               isLoaded ? 'scale-105' : 'scale-100'
             }`}

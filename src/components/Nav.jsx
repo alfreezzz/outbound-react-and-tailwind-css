@@ -13,7 +13,11 @@ export default function Nav() {
       <div className='container mx-auto flex justify-between items-center'>
         {/* Logo or Brand */}
         <div className='flex items-center'>
-          <img src='../public/icon.png' alt='icon' className='w-9 h-9 mr-2' />
+          <img
+            src={`${import.meta.env.BASE_URL}icon.png`}
+            alt='icon'
+            className='w-9 h-9 mr-2'
+          />
           <a href='#home' className='text-lg'>
             <span className='italic'>Wanna</span> Outbound
           </a>
