@@ -14,12 +14,12 @@ export default function Nav() {
         {/* Logo or Brand */}
         <div className='flex items-center'>
           <img
-            src={`${import.meta.env.BASE_URL}icon.png`}
-            alt='icon'
+            src={`${import.meta.env.BASE_URL}logo.svg`}
+            alt='logo'
             className='w-9 h-9 mr-2'
           />
-          <a href='#home' className='text-lg'>
-            <span className='italic'>Wanna</span> Outbound
+          <a href='#home' className='text-lg font-bold'>
+            AdventureOut
           </a>
         </div>
 

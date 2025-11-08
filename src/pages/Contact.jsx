@@ -137,7 +137,7 @@ export default function Contact() {
                   },
                   {
                     title: 'Email',
-                    content: 'wannaoutbound@gmail.com',
+                    content: 'adventureout@gmail.com',
                     icon: (
                       <svg
                         className='w-6 h-6 fill-primary'
@@ -203,7 +203,7 @@ export default function Contact() {
               <motion.iframe
                 src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.338217131391!2d106.83131607775115!3d-6.395692078327391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec0fabfa32f7%3A0x1d5da760444ffd74!2sDepok%20Town%20Square%2C%20Jl.%20Margonda%20No.1%2C%20Kemiri%20Muka%2C%20Kecamatan%20Beji%2C%20Kota%20Depok%2C%20Jawa%20Barat%2016424!5e0!3m2!1sid!2sid!4v1745145154473!5m2!1sid!2sid'
                 className='w-full h-96 rounded-xl'
-                title='Lokasi Wanna Outbound di Google Maps'
+                title='Lokasi AdventureOut di Google Maps'
                 allowFullScreen
                 loading='lazy'
                 referrerPolicy='no-referrer-when-downgrade'

@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#10B981" stroke="#059669" stroke-width="2"/>
+
+  <!-- Mountain silhouette -->
+  <path d="M12 40L24 24L32 32L40 20L52 40H12Z" fill="white" opacity="0.9"/>
+
+  <!-- Sun/rays -->
+  <circle cx="45" cy="19" r="4" fill="#FCD34D"/>
+  <path d="M45 11V13M45 25V27M37 19H39M51 19H53M39 13L40 14M50 24L51 25M39 25L40 24M50 14L51 13" stroke="#FCD34D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Trees -->
+  <path d="M18 40V44M16 36H20M14 38H22" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+  <path d="M44 40V44M42 36H46M40 38H48" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Tent/camp -->
+  <path d="M28 36L32 30L36 36H28Z" fill="#DC2626" stroke="#991B1B" stroke-width="1"/>
+</svg>

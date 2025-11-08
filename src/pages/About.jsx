@@ -70,12 +70,12 @@ export default function About() {
         >
           <div className='flex items-center mb-6'>
             <img
-              src={`${import.meta.env.BASE_URL}icon.png`}
-              alt='icon'
+              src={`${import.meta.env.BASE_URL}logo.svg`}
+              alt='logo'
               className='w-12 h-12 mr-3'
             />
-            <p className='lg:text-xl text-lg'>
-              <span className='italic font-medium'>Wanna</span> Outbound
+            <p className='lg:text-xl text-lg font-bold'>
+              AdventureOut
             </p>
           </div>
           <p className='leading-relaxed text-base'>

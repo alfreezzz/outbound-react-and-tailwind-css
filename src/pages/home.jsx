@@ -39,7 +39,7 @@ export default function Home() {
               Selamat Datang di
             </div>
             <BlurText
-              text='Wanna Outbound'
+              text='AdventureOut'
               delay={150}
               animateBy='words'
               direction='top'
